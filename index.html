@@ -3,11 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>JS Bin</title>
+    <title>tko QA</title>
     <script type="text/javascript" data-main="/app/main" src="/node_modules/requirejs/require.js" async></script>
 </head>
 <body>
 <p>Hello {{name}}!</p>
+<div data-bind="template: {name : 'person'}"></div>
+
+
+<script type="text/html" id="person-template">
+    <h3 data-bind="text: name"></h3>
+</script>
 
 </body>
 </html>
