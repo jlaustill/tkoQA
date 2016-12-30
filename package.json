@@ -4,7 +4,8 @@
   "description": "just a test repo for qa'ing tko",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start --config bs-config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/jlaustill/tkoQA/issues"
   },
-  "homepage": "https://github.com/jlaustill/tkoQA#readme"
+  "homepage": "https://github.com/jlaustill/tkoQA#readme",
+  "dependencies": {
+    "knockout-amd-helpers": "^0.7.4",
+    "requirejs": "^2.3.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5"
+  }
 }
