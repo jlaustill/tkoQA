@@ -19,7 +19,9 @@
   "homepage": "https://github.com/jlaustill/tkoQA#readme",
   "dependencies": {
     "knockout-amd-helpers": "^0.7.4",
-    "requirejs": "^2.3.2"
+    "requirejs": "^2.3.2",
+    "text": "requirejs/text",
+    "tko": "knockout/tko#v4.0.0-alpha1"
   },
   "devDependencies": {
     "browser-sync": "^2.18.5"
