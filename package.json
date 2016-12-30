@@ -1,0 +1,19 @@
+{
+  "name": "tko-qa",
+  "version": "1.0.0",
+  "description": "just a test repo for qa'ing tko",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlaustill/tkoQA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlaustill/tkoQA/issues"
+  },
+  "homepage": "https://github.com/jlaustill/tkoQA#readme"
+}
